@@ -64,7 +64,7 @@ main {
     color: var(--main-bg-color)
 }
 
-/****** Barre de navigation ***********/
+/****** BARRE DE NAVIGATION ***********/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -103,7 +103,7 @@ main {
     border-top: 2px solid var(--main-color);
 }
 
-/****** Texte - Barre de recherche - Filtres ***********/
+/****** BARRE DE RECHERCHE ***********/
 .search-bar {
     display: flex;
     width: fit-content;
@@ -114,6 +114,8 @@ main {
     padding: 16px;
     background-color: var(--main-bg-color);
     border-radius: 10px 0px 0px 10px;
+    width: 14px;
+    height: 18px;
 }
 
 .champ {
@@ -144,7 +146,62 @@ main {
     border: 0;
 }
 
+/****** FILTRES ***********/
+.filtres {
+    display: flex;
+    align-items: center;
+}
 
+.filtres h3 {
+    margin-right: 15px;
+}
+
+.filtres ul {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filtres li {
+    display: flex;
+    margin-right: 15px;
+    border-radius: 25px;
+    padding: 10px 22px;
+    gap: 10px;
+    border: 3px solid var(--main-bg-color);  
+}
+
+.filtres li:hover {
+    background-color: var(--filter-bg-color);
+    cursor: default;
+}
+
+.filtres .fa-solid {
+    font-size: 22px;
+}
+
+/****** INFORMATION ***********/
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    border: 2px solid var(--main-bg-color);
+    padding: 5px;
+    border-radius: 50%; 
+}
+
+.info p {
+    margin-left: 10px;
+}
 
 
 /****** Hebergements And Populaires ***********/
