@@ -1,9 +1,10 @@
 /****** General ***********/
 * {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    list-style: none;
-    font-family: 'Raleway', sans-serif;
 }
 
 :root {
@@ -19,6 +20,12 @@
 body {
     display: flex;
     justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .main-container {
@@ -61,8 +68,8 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%; 
-    height: 79px; 
+    width: 100%;
+    height: 79px;
 }
 
 .logo {
@@ -83,19 +90,62 @@ body {
 }
 
 .nav-links li {
-    padding-top: 12px; 
+    padding-top: 11px;
 }
 
 .nav-links li a {
-    text-decoration: none; 
     color: black;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 .nav-links li a:hover {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
+
+/****** Texte - Barre de recherche - Filtres ***********/
+.search-bar {
+    display: flex;
+    width: fit-content;
+}
+
+.fa-location-dot {
+    color: black;
+    padding: 16px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.champ {
+    padding: 12px;
+    border-color: var(--main-bg-color);
+    font-weight: bold;
+    border: 0;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+    border-left: 1px solid var(--main-bg-color);
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bouton {
+    padding: 12px;
+    background-color: var(--main-color);
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+}
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
