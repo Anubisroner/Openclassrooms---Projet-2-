@@ -132,8 +132,8 @@ a {
     font-size: 20px;
 }
 
-.fa-magnifying-glass {
-    display: none!important;
+#loupe {
+    display: none;
 }
 
 .champ {
@@ -252,7 +252,7 @@ a {
 }
 
 .card-link {
-    width: 29%;
+    width: 28%;
 }
 
 .card-link .card {
@@ -532,8 +532,8 @@ a {
         padding: 15px;
     }
 
-    .fa-magnifying-glass {
-        display: inline-block!important;
+    #loupe {
+        display: inline-block;
         padding: 15px 18px;
         background-color: var(--main-color);
         border-radius: 15px;
