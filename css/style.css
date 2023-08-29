@@ -133,7 +133,7 @@ a {
 }
 
 .fa-magnifying-glass {
-    display: none;
+    display: none!important;
 }
 
 .champ {
@@ -533,7 +533,7 @@ a {
     }
 
     .fa-magnifying-glass {
-        display: inline-block;
+        display: inline-block!important;
         padding: 15px 18px;
         background-color: var(--main-color);
         border-radius: 15px;
