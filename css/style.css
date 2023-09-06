@@ -628,6 +628,7 @@ a {
 
     .populaires-cards img {
         width: 42%;
+        height: 150px;
     }
 
     .hebergements-and-populaires > .hebergements-section {
